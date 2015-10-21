@@ -1,0 +1,24 @@
+ip domain name test.dev
+!
+crypto key generate rsa general-keys modulus 1024
+!
+enable password password
+!
+username pytest password pytest
+!
+interface fast 0/0
+!
+no shut
+!
+exit
+!
+line vty 0 5
+transport input ssh
+transport output ssh
+login local
+!
+exit
+!
+exit
+!
+wr mem
