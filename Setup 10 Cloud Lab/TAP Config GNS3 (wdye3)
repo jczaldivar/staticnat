@@ -1,0 +1,77 @@
+TAP Config for GNS3 Automation Lab1 (wdye3)
+# 
+#ifconfig for taps
+#
+sudo ifconfig tap0 10.0.0.1/30 up
+sudo ifconfig tap1 10.0.0.5/30 up
+sudo ifconfig tap2 10.0.0.9/30 up
+sudo ifconfig tap3 10.0.0.13/30 up
+sudo ifconfig tap4 10.0.0.17/30 up
+sudo ifconfig tap5 10.0.0.21/30 up
+sudo ifconfig tap6 10.0.0.25/30 up
+sudo ifconfig tap7 10.0.0.29/30 up
+sudo ifconfig tap8 10.0.0.33/30 up
+sudo ifconfig tap9 10.0.0.37/30 up
+#
+# ifconfig print of taps
+#
+tap0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 6e:76:b1:82:fa:dd
+	inet 10.0.0.1 netmask 0xfffffffc broadcast 10.0.0.3
+	media: autoselect
+	status: active
+	open (pid 7665)
+tap1: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether a6:e8:4b:c7:f4:de
+	inet 10.0.0.5 netmask 0xfffffffc broadcast 10.0.0.7
+	media: autoselect
+	status: active
+	open (pid 7683)
+tap2: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether da:26:3e:07:63:7b
+	inet 10.0.0.9 netmask 0xfffffffc broadcast 10.0.0.11
+	media: autoselect
+	status: active
+	open (pid 7684)
+	tap3: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether da:ed:64:94:f3:12
+	inet 10.0.0.13 netmask 0xfffffffc broadcast 10.0.0.15
+	media: autoselect
+	status: active
+	open (pid 7702)
+tap4: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 46:ea:05:32:2d:b2
+	inet 10.0.0.17 netmask 0xfffffffc broadcast 10.0.0.19
+	media: autoselect
+	status: active
+	open (pid 7703)
+tap5: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether ba:a1:6f:bc:cf:22
+	inet 10.0.0.21 netmask 0xfffffffc broadcast 10.0.0.23
+	media: autoselect
+	status: active
+	open (pid 7721)
+tap6: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 0a:7c:9b:36:e2:d1
+	inet 10.0.0.25 netmask 0xfffffffc broadcast 10.0.0.27
+	media: autoselect
+	status: active
+	open (pid 7722)
+tap7: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 96:fb:58:62:42:e4
+	inet 10.0.0.29 netmask 0xfffffffc broadcast 10.0.0.31
+	media: autoselect
+	status: active
+	open (pid 7731)
+tap8: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 9a:14:38:30:83:2e
+	inet 10.0.0.33 netmask 0xfffffffc broadcast 10.0.0.35
+	media: autoselect
+	status: active
+	open (pid 7741)
+tap9: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether 6e:e2:4f:ea:3a:c1
+	inet 10.0.0.37 netmask 0xfffffffc broadcast 10.0.0.39
+	media: autoselect
+	status: active
+	open (pid 7742)
