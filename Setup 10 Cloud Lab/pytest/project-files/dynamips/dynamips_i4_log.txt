@@ -1,0 +1,48 @@
+Oct 20 00:33:21.791 HYPERVISOR: Release 0.2.12-amd64/Darwin (tag 2014032722)
+Oct 20 00:33:21.791 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56979.
+Oct 20 00:33:21.800 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 20 00:33:21.800 HYPERVISOR: exec_cmd: hypervisor uuid 
+Oct 20 00:33:21.800 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/jobrien/GNS3/projects/pytest/project-files/dynamips 
+Oct 20 00:33:21.800 GENERAL: working_dir=/Users/jobrien/GNS3/projects/pytest/project-files/dynamips
+Oct 20 00:33:21.801 HYPERVISOR: exec_cmd: vm create R4 4 c3725 
+Oct 20 00:33:21.801 VM: VM R4 created.
+Oct 20 00:33:21.802 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 2004 
+Oct 20 00:33:21.802 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Oct 20 00:33:21.802 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 00:33:21.802 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x6054a608 
+Oct 20 00:33:21.803 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Oct 20 00:33:21.803 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 00:33:21.803 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Oct 20 00:33:21.803 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 00:33:21.804 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Oct 20 00:33:21.804 HYPERVISOR: exec_cmd: vm set_ios R4 /Users/jobrien/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 20 00:33:21.804 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Oct 20 00:33:21.805 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Oct 20 00:33:21.805 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Oct 20 00:33:21.806 HYPERVISOR: exec_cmd: vm set_ghost_file R4 c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Oct 20 00:54:00.801 HYPERVISOR: exec_cmd: nio create_tap tap-44f5c2a4-5b6a-43ad-ac74-06342b940d09 /dev/tap3 
+Oct 20 00:54:00.802 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 tap-44f5c2a4-5b6a-43ad-ac74-06342b940d09 
+Oct 20 00:54:00.802 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 00:57:46.067 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 00:57:46.067 HYPERVISOR: exec_cmd: vm start R4 
+Oct 20 01:00:01.915 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 01:00:01.916 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x0 
+Oct 20 01:00:01.916 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 01:00:01.916 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 01:00:01.917 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R4 0 
+Oct 20 01:00:12.553 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 20 01:00:12.553 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x60a800f0 
+Oct 20 01:00:12.553 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Oct 20 01:00:15.559 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Oct 22 13:37:03.077 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 22 13:37:33.075 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 22 13:38:46.231 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 22 13:39:31.207 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 22 13:39:31.208 HYPERVISOR: exec_cmd: vm stop R4 
+Oct 22 13:39:31.272 VM: VM R4 shutdown.
+Oct 22 13:39:31.272 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 22 13:39:31.273 HYPERVISOR: exec_cmd: vm delete R4 
+Oct 22 13:39:31.273 VM: VM R4 destroyed.
+Oct 22 13:39:31.276 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 22 13:39:31.667 HYPERVISOR: Stopped.
+Oct 22 13:39:31.668 GENERAL: reset done.
