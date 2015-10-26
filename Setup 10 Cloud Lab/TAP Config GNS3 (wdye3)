@@ -1,17 +1,21 @@
 TAP Config for GNS3 Automation Lab1 (wdye3)
 # 
-#ifconfig for taps
+#ifconfig for taps copy and paste into terminal
 #
-sudo ifconfig tap0 10.0.0.1/30 up
-sudo ifconfig tap1 10.0.0.5/30 up
-sudo ifconfig tap2 10.0.0.9/30 up
-sudo ifconfig tap3 10.0.0.13/30 up
-sudo ifconfig tap4 10.0.0.17/30 up
-sudo ifconfig tap5 10.0.0.21/30 up
-sudo ifconfig tap6 10.0.0.25/30 up
-sudo ifconfig tap7 10.0.0.29/30 up
-sudo ifconfig tap8 10.0.0.33/30 up
-sudo ifconfig tap9 10.0.0.37/30 up
+sudo -s
+ifconfig tap0 10.0.0.1/30 up
+ifconfig tap1 10.0.0.5/30 up
+ifconfig tap2 10.0.0.9/30 up
+ifconfig tap3 10.0.0.13/30 up
+ifconfig tap4 10.0.0.17/30 up
+ifconfig tap5 10.0.0.21/30 up
+ifconfig tap6 10.0.0.25/30 up
+ifconfig tap7 10.0.0.29/30 up
+ifconfig tap8 10.0.0.33/30 up
+ifconfig tap9 10.0.0.37/30 up
+#
+#
+# BELOW THIS LINE is VALIDATION ONLY.  DO NOT COPY INTO Terminal!
 #
 # ifconfig print of taps
 #
