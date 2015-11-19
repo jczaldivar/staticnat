@@ -38,7 +38,7 @@ for switch in switches:
 	except pexpect.TIMEOUT:
 		got_prompt = False
 	if not got_prompt:
-		print "%s failed" % (switch)
+		print "Connection to %s failed!" % (switch)
 		continue
 #
 	child.sendline(switch_pw)
